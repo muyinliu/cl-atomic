@@ -23,7 +23,10 @@
    #:atomic-boolean-value
    #:atomic-boolean-compare-and-swap
    #:atomic-boolean-swap
-   #:atomic-boolean-get-and-set))
+   #:atomic-boolean-get-and-set
+
+   ;;; utilities
+   #:compare-and-swap))
 
 (in-package :atomic)
 
